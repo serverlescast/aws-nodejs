@@ -1,2 +1,5 @@
 # aws-nodejs
-Example of nodejs for interacting with aws
+
+This project includes examples of how to use aws-sdk with nodejs
+
+
