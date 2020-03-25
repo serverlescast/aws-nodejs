@@ -1,4 +1,4 @@
-# Basic cli app for working with s3 buckets
+# Basic cli app for working with lambda 
 
 
 ### Pre-requests
@@ -11,12 +11,6 @@ npm install
 
 .env
 ```yaml
-COMPANY_GROUP=arn:aws:iam::{number}:group/${group}
-COMPANY_ROLE=arn:aws:iam::{number}:role/${role}
-COMPANY_ROOT=arn:aws:iam::${aws-id}:root
-REGION=us-east-1
-ACCESS_KEY_ID={aws_access_key}
-SECRET_ACCESS_KEY={aws_secret_access_key}
 ```
 
 
@@ -33,12 +27,4 @@ or add .env credentials from .envfile
 
 
 Supported commands:
-- create-bucket
-- delete-bucket
-- list-bucket
-- file-upload
-- file-website
-
-Supported policy types:
-- public
-- private by role
+- none
