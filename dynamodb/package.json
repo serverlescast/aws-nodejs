@@ -1,0 +1,16 @@
+{
+  "name": "dynamodb",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anže Matelič <amtelic93@gmail.com> (https://gdo-studio.si)",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.642.0",
+    "docopt": "^0.6.2",
+    "moment": "^2.24.0"
+  }
+}

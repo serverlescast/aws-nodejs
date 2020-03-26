@@ -1,0 +1,30 @@
+{
+    "AttributeDefinitions": [
+        {
+            "AttributeName": "CUSTOMER_ID",
+            "AttributeType": "N"
+        },
+        {
+            "AttributeName": "CUSTOMER_NAME",
+            "AttributeType": "S"
+        }
+    ],
+    "KeySchema": [
+        {
+            "KeyType": "HASH",
+            "AttributeName": "CUSTOMER_NAME"
+        },
+        {
+            "KeyType": "RANGE",
+            "AttributeName": "CUSTOMER_ID"
+        }
+    ],
+    "ProvisionedThroughput": {
+        "ReadCapacityUnits": 1,
+        "WriteCapacityUnits": 1
+    },
+    "TableName": "CUSTOMER_LIST",
+    "StreamSpecification": {
+        "StreamEnabled": false
+    }
+}
